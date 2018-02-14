@@ -71,7 +71,7 @@ function testGameOver() {
 		if (currentPlayer == 2) {
 			winner = "<div style='border: solid; width: 50%; padding-top: 20px; margin: auto'><img src='./controls/skull.gif' width='20%'><p style='font-weight: bold'>The game is over.<br>The computer won the game.<\/p><\/div>";
 		} else {
-			winner = "<div style='border: solid; width: 50%; padding-top: 20px; margin: auto'><img src='./controls/.end.png' width='80%'><p style='font-weight: bold'>You won the game!<br>Continue to the last puzzle.<\/p><\/div>";
+			winner = "<div style='border: solid; width: 50%; padding-top: 20px; margin: auto'><img src='./controls/end.png' width='80%'><p style='font-weight: bold'>You won the game!<br>Continue to the last puzzle.<\/p><\/div>";
 		}
 		el('player').innerHTML = "[<a href=''>restart</a>]";
 		el('game').innerHTML = winner;
