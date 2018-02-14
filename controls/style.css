@@ -1,0 +1,125 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Courier New", sans-serif; margin: 0; line-height: 1.5}
+/*button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}*/
+      /*.w3-row-padding img {margin-bottom: 12px}*/
+      .button{
+      	border: solid;
+      	display:inline-block;
+      	padding:8px 16px;
+      	vertical-align:middle;
+      	overflow:hidden;
+      	text-decoration:none;
+      	color:inherit;
+      	background-color: #e7e7e7;
+      	text-align: center;
+      	cursor: pointer;
+      	white-space:nowrap;
+      	font-size: 22px;
+      	font-weight: bold;
+      	font-family: inherit;
+      }
+      .button-small{
+      	border: none;
+      	display:inline-block;
+      	padding:2px 2px;
+      	vertical-align:middle;
+      	overflow:hidden;
+      	text-decoration:none;
+      	color:inherit;
+      	background-color: #e7e7e7;
+      	text-align: center;
+      	cursor: pointer;
+      	white-space:nowrap;
+      	font-size: 10px;
+      	font-weight: bold;
+      	font-family: inherit;
+      }
+      .font-large{font-size:18px!important}
+      .font-xxlarge{font-size:36px!important}
+      .font-small{font-size:14px}
+      .bgimg {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url('./dogfull.html.png');
+          min-height: 100%;
+      }
+      .bgwrong {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url('./skull.html.png');
+          min-height: 100%;
+      }
+      .bg3 {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-image: url('./skull2.gif');
+          max-height: 100%;
+      }
+
+      .sidebar{
+        height:100%;
+        width:35%;
+        background-color:#fff;
+        position:fixed!important;
+        z-index:1;
+        overflow:auto
+      }
+      .main{
+        margin-left: 35%;
+        z-index: 0;
+        padding: 10vh;
+        width: 60vw;
+      }
+      .center-full { 
+      	margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .center-padded {
+      	margin: 0;
+        text-align: center;
+        position: absolute;
+        padding-top: 10vh;
+        left: 67.5%;
+        transform: translate(-50%, 0%);
+      }
+      .center {
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 67.5%;
+        transform: translate(-50%, -50%);
+      }
+      .hint{
+        font-size: 1  4px;
+        padding: 20px;
+      }
+      @media(max-width: 600px){
+        .sidebar{
+          height:25vh;
+          width: 100vw;
+          position: relative!important;
+        }
+        .bgimg{
+        	background-position: 50% 10%;
+        }
+        .main{
+          margin-left: 0;
+          width: 95%;
+        }
+        .center{
+          top: 62.5%;
+          left: 50%;
+        }
+        .center-padded{
+        	padding-top: 10vh;	
+        	left: 50%;
+        }
+        
+      }
